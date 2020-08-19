@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84294e700b7843104eac490528716f95",
+    "content-hash": "0c2bf7e7581fe552812a46949d5b784e",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -161,53 +161,6 @@
                 "markdown-extra"
             ],
             "time": "2018-12-10T09:41:35+00:00"
-        },
-        {
-            "name": "devanych/yii2-cart",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/devanych/yii2-cart.git",
-                "reference": "a17190c8c6552a82aa6f4646b83f8123748fe1a3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/devanych/yii2-cart/zipball/a17190c8c6552a82aa6f4646b83f8123748fe1a3",
-                "reference": "a17190c8c6552a82aa6f4646b83f8123748fe1a3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6",
-                "yiisoft/yii2": "*"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~6.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "devanych\\cart\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Evgeniy Zyubin",
-                    "email": "info@zyubin.ru",
-                    "homepage": "https://zyubin.ru"
-                }
-            ],
-            "description": "Shopping cart for Yii2",
-            "keywords": [
-                "yii2",
-                "yii2-cart",
-                "yii2-extension",
-                "yii2-shopping-cart"
-            ],
-            "time": "2019-10-18T10:25:54+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",

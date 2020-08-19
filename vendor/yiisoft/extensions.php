@@ -93,15 +93,6 @@ return array (
       '@kartik/color' => $vendorDir . '/kartik-v/yii2-widget-colorinput/src',
     ),
   ),
-  'devanych/yii2-cart' => 
-  array (
-    'name' => 'devanych/yii2-cart',
-    'version' => '9999999-dev',
-    'alias' => 
-    array (
-      '@devanych/cart' => $vendorDir . '/devanych/yii2-cart',
-    ),
-  ),
   'yiisoft/yii2-debug' => 
   array (
     'name' => 'yiisoft/yii2-debug',

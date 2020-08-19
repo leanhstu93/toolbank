@@ -59,10 +59,6 @@ class ComposerStaticInit323059f41f6ecca0b67b23daabcbe1b2
             'kartik\\color\\' => 13,
             'kartik\\base\\' => 12,
         ),
-        'd' => 
-        array (
-            'devanych\\cart\\' => 14,
-        ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
@@ -230,10 +226,6 @@ class ComposerStaticInit323059f41f6ecca0b67b23daabcbe1b2
         'kartik\\base\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base/src',
-        ),
-        'devanych\\cart\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/devanych/yii2-cart',
         ),
         'cebe\\markdown\\' => 
         array (
