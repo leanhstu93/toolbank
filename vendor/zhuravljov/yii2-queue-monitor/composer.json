@@ -1,0 +1,52 @@
+{
+    "name": "zhuravljov/yii2-queue-monitor",
+    "description": "Yii2 Queue Analytics Module",
+    "type": "yii2-extension",
+    "keywords": ["yii", "queue", "analytics", "module"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Roman Zhuravlev",
+            "email": "zhuravljov@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/zhuravljov/yii2-queue-monitor/issues",
+        "source": "https://github.com/zhuravljov/yii2-queue-monitor"
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "ext-pdo": "*",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-queue": ">=2.2.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "zhuravljov/yii2-pagination": "~1.0"
+    },
+    "suggest": {
+        "zhuravljov/yii2-pagination": "Makes pagination more responsive"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "zhuravljov\\yii\\queue\\monitor\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
